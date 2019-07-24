@@ -1,0 +1,10 @@
+num=65535
+print('---2进制：{:b}'.format(num))
+print('---8进制：%o' %num)
+print('---10进制：%d' %num)
+print('---16进制：%x' %num)
+print('-----------------------------------')
+print('---2进制：',bin(num))
+print('---8进制：',oct(num))
+print('---10进制：',(num))
+print('---16进制：',hex(num))
